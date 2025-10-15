@@ -515,11 +515,6 @@ h4 {
   font-weight: 500;
 }
 
-.social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .social-icons {
   display: flex;
