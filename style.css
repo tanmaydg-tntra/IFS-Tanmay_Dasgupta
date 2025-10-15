@@ -4,6 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navbar Styles */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -32,7 +34,7 @@
 
 .contact-btn {
   padding: 7px 15px;
-  background: #4682B4;
+  background: #4682b4;
   color: white;
   margin: 15px 30px;
   border-radius: 5px;
@@ -54,6 +56,8 @@
   display: flex;
   gap: 30px;
 }
+
+/* Hero Section Styles */
 
 .hero {
   display: flex;
@@ -97,7 +101,7 @@
 }
 
 .contact {
-  background: #4682B4;
+  background: #4682b4;
   color: #fff;
   margin-right: 10px;
 }
@@ -111,6 +115,8 @@
 .hero-image img {
   height: 400px;
 }
+
+/* Service Section */
 
 .services {
   display: flex;
@@ -133,9 +139,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f1ecff;
 }
 
-.icon-box img {
+.icon-box-1 {
+  background-color: #ebffe8;
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box-2 {
+  background-color: #e9f0ff;
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box-3 {
+  background-color: #ffede8;
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-image {
   width: 40px;
   height: 40px;
 }
@@ -168,20 +205,7 @@
   margin-bottom: 50px;
 }
 
-.feature {
-  padding: 100px 100px;
-}
-
-.feature article {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 60px;
-}
-
-.feature img {
-  width: 40%;
-}
+/* About Section */
 
 .about-section {
   display: flex;
@@ -254,7 +278,7 @@
 .icon-text h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #222;
+  color: black;
   margin: 0;
   margin-bottom: 5px;
 }
@@ -287,6 +311,8 @@
   margin-top: -100px;
   margin-right: 65px;
 }
+
+/* Cards Section */
 
 .cards {
   display: flex;
@@ -338,7 +364,6 @@
   background-color: #24a8f5;
   padding: 60px;
   padding-bottom: 40px;
-
   width: 431px;
   border-radius: 18px;
 }
@@ -374,6 +399,8 @@
   font-weight: 600;
 }
 
+/* Partner Section  */
+
 .partners h3 {
   text-align: center;
   margin-top: 150px;
@@ -386,6 +413,8 @@
   justify-content: space-around;
   margin: 25px 200px;
 }
+
+/* Subscribe Section  */
 
 .subscribe {
   background-color: #e9f6ff;
@@ -428,6 +457,8 @@
   justify-content: center;
   cursor: pointer;
 }
+
+/* Footer Section  */
 
 .footer {
   border-top: 1px solid #e5e5e5;
@@ -514,5 +545,5 @@ h4 {
   margin-top: 10px;
   padding-top: 15px;
   font-size: 13px;
-  color: #777;
+  color: grey;
 }
